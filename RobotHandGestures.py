@@ -165,7 +165,7 @@ def connectToRobot(portNo):
 
     #print(dir(serial))
     try:
-        ser = serial.Serial("COM5", 9600)
+        ser = serial.Serial(portNo, 9600)
         """ser.baudrate = 9600"""
         print("Robot Connected ")
 
