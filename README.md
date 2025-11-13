@@ -80,7 +80,7 @@ python RobotHandGestures.py
 Default gestures include:
 - **Open Palm** → all fingers extended  
 - **Fist** → all fingers curled  
-- **Index Finger Point** → index extended, others curled  
+- **Individual Finger Control**  
 
 You can easily add more gestures by editing `utlis.py` and updating mappings in `RobotHandGestures.py`.
 
